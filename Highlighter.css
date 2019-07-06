@@ -1,0 +1,239 @@
+
+
+
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	align-content: center;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+#textarea{
+	outline: solid 2px black;
+	width: 1200px;
+	height: 768px;
+	position: relative;
+	margin: auto;
+	margin-left: 5vw;
+	align-content: center;
+	top: 73.5%;
+	display: inline-block;
+	margin-top: 4%;
+	background-color:white;
+	border: black 2px solid;
+	overflow: auto;
+	
+}
+
+#textarea:focus{
+	outline:solid 2px #15BAD4;
+}
+
+#textarea span{
+    background-color: yellow;
+    color:#555;
+    font-size: 3em;
+}
+
+
+
+
+button {
+	position: absolute;
+	text-align: center;
+	display: inline-block;
+	top: 13.5%;
+	left: 42%;
+	padding: 0.5% 5.6% 0.5% 5.6%;
+	margin: none;
+	background-color: cyan;
+	font-size: 1.5em;
+	font-weight : bold;
+	transition: all 0.3s ease;
+	border-radius: 20px;
+	outline: none;
+	box-shadow: none;
+
+}
+button:hover {
+	background-color: #42879E;
+}
+button:active {
+	background-color: #00BFFF;
+}
+
+
+#text-search{
+	position:relative;
+	display: inline-block;
+	left: 34%;
+	margin: auto;
+	height: 60%;
+	margin-top: 2.5%;
+	padding-top: 0.75%;
+	padding-bottom: 0.75%;
+	padding-left: 0.5%;
+	padding-right: 0.5%;
+	width: 30%;
+	font-size: 1.2em;
+	text-align: left;
+}
+#text{
+	position: absolute;
+	display: inline-block;
+	left: 44.5%;
+	top: 2%;
+	font-weight: bold;
+	font-size: 1.1em;
+	font-family: Roboto;
+}
+
+.Exam-Menu{
+	position: absolute;
+	left: 5%;
+	top:12%;
+	background-color: cyan;
+	text-decoration: none;
+	color:black;
+	border: grey 2px solid;
+	padding: 1%;
+	padding-right: 2%;
+	padding-left: 2%;
+	border-radius: 5px;
+	z-index: 34968;
+	transition: all 0.3s ease;
+}
+.Exam-Menu:hover{
+	background-color: #42879E;
+}
+.Exam-Menu:active{
+	background: #00BFFF;
+}
+
+.ToggledExamMenuList{
+	left: 5.1%;
+	top: 12.5%;
+	background: #DAE1E3;
+	border: grey 1px solid;
+	display: inline-block;
+	padding-right: 3%;
+	padding-left: 2.3%;
+	border-radius: 5px;
+	line-height: 150%;
+	list-style-type: none;
+	position: fixed;
+	z-index: 4;
+
+	
+}
+.ToggledExamMenuList a {
+	text-decoration:none;
+	color: black;
+
+}
+.ToggledExamMenuList a:hover{
+	color: grey;
+}
+
+.Listening {
+	position: absolute;
+	left: 70%;
+	top: 14.5%;
+	display: inline-block;
+	z-index: 2038;                                                           
+
+}
+
+
+
+.Marking-Scheme-Menu{
+	position: absolute;
+	left: 16.3%;
+	top:12%;
+	background-color: cyan;
+	display: inline-block;
+	text-decoration: none;
+	color:black;
+	border: grey 2px solid;
+	padding: 1%;
+	border-radius: 5px;
+	z-index: 324968;
+	transition: all 0.3s ease;
+
+}
+.Marking-Scheme-Menu:hover{
+	background-color: #42879E;
+}
+.Marking-Scheme-Menu:active{
+	background: #00BFFF;
+}
+
+
+.ToggledMarkingSchemeMenuList{
+	left: 16.3%;
+	top: 12.5%;
+	background: #DAE1E3;
+	border: grey 1px solid;
+	display: inline-block;
+	padding-right: 3%;
+	padding-left: 2.5%;
+	border-radius: 5px;
+	line-height: 150%;
+	list-style-type: none;
+	position: absolute;
+	z-index: 4;
+	
+}
+.ToggledMarkingSchemeMenuList a {
+	text-decoration:none;
+	color: black;
+
+}
+
+.ToggledMarkingSchemeMenuList a:hover{
+	color: grey;
+}
